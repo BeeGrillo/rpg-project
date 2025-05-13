@@ -2,12 +2,26 @@ extends Node
 
 class_name Task
 
+var attribute = {
+	health = {
+		strength = "Força",
+		constitution = "Constituição",
+		mana = "Mana"
+	 	},
+	wealth = {
+		luck = "sorte",
+		inteligence = "Inteligência",
+		wisdom = "Sabedoria"
+	},
+	coletive = "Coletivo"
+}
+
 var title: String
 var desc: String
 var created_at: Time
 var deadline: String
 var leadTime: LeadTime
-var coletivo: bool
+var coletive: bool
 
 class LeadTime:
 	var estimated: Time
