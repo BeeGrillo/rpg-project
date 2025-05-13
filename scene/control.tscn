@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://d00qk7uvj41b"]
+
+[ext_resource type="Script" uid="uid://bqr0t5fh7qu8e" path="res://mai.gd" id="1_vrdfc"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_vrdfc")
